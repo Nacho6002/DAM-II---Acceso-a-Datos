@@ -1,0 +1,3 @@
+Este es un ejemplo de fichero de texto.
+Cada línea tiene contenido diferente.
+¡Puedes modificarlo para tus pruebas!

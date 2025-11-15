@@ -1,34 +1,49 @@
-# Gradle files
-.gradle/
-build/
+# === Eclipse ===
+# Ignora archivos de clase compilados
+*.class
 
-# Local configuration file (sdk path, etc)
-local.properties
+# Ignora archivos de configuración del proyecto de Eclipse
+.project
+.classpath
+.settings/
 
-# Log/OS Files
+# Ignora configuraciones de lanzamiento
+*.launch
+
+# Ignora archivos generados por Eclipse
+.externalToolBuilders/
+.apt_generated/
+
+# Ignora la carpeta de salida de compilación
+bin/
+target/
+
+# === Java Común ===
+# Ignora archivos de paquete
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Ignora logs de crash de la VM de Java
+hs_err_pid*
 *.log
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+# === Docker ===
+# Ignora logs y configuraciones locales
+docker-compose.override.yml
+docker-compose.local.yml
+docker-logs/
+*.log
 
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+# ¡MUY IMPORTANTE!
+# Ignora las carpetas de volúmenes de datos
+# (donde Docker guarda los datos de la BBDD)
+data/
+mysql_data/
+postgres_data/
+db_data/
+volumes/

@@ -1,0 +1,1 @@
+Este es un String escrito de corrido.ABCDE

@@ -1,0 +1,18 @@
+<Libreria>
+  <nombre>LectuLandia</nombre>
+  <ciudad>Guadalajara</ciudad>
+  <libros>
+    <libros>
+      <titulo>Drácula</titulo>
+      <autor>Bram Stoker</autor>
+      <editorial>Alianza</editorial>
+      <isbn>978-8420674161</isbn>
+    </libros>
+    <libros>
+      <titulo>1984</titulo>
+      <autor>George Orwell</autor>
+      <editorial>Círculo</editorial>
+      <isbn>978-8499890944</isbn>
+    </libros>
+  </libros>
+</Libreria>
