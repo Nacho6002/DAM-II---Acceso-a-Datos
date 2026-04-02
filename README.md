@@ -28,13 +28,12 @@ Aplicación desarrollada en Java utilizando JPA/Hibernate y MySQL en Docker.
 - Diagramas de base de datos y memoria del proyecto
 
 ## Tecnologías trabajadas
-- Java
-- JDBC
-- JPA / Hibernate
-- MySQL
-- Docker
-- Swing
-- Eclipse
+- ☕ Java
+- 🗄️ MySQL
+- 🐳 Docker
+- 🧩 JDBC
+- 🔗 JPA / Hibernate
+- 🖥️ Swing
 
 ## Estructura del repositorio
 - `agenda-amigos-java-mysql/`
