@@ -47,3 +47,12 @@ mysql_data/
 postgres_data/
 db_data/
 volumes/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archvios temporales de Java/Eclipse
+out/
+
+.gradle/
