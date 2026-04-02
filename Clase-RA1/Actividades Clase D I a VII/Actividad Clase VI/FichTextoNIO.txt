@@ -1,3 +1,0 @@
-Primera línea con NIO.
-Escribimos una línea usando java.nio.file.Segunda línea agregada al final.
-Escribimos una línea usando java.nio.file.
