@@ -1,48 +1,78 @@
-# Acceso a Datos - Proyectos DAM
+<h1 align="center">🗄️ Acceso a Datos - Proyectos DAM</h1>
 
-Repositorio con una selección de mis proyectos más representativos del módulo de **Acceso a Datos** del ciclo formativo de **Desarrollo de Aplicaciones Multiplataforma (DAM)**.
+<p align="center">
+  Selección de proyectos del módulo de <strong>Acceso a Datos</strong><br>
+  del ciclo formativo de <strong>Desarrollo de Aplicaciones Multiplataforma (DAM)</strong>.
+</p>
 
-## Sobre este repositorio
-Aquí recopilo trabajos académicos centrados en el acceso a datos con Java, bases de datos relacionales, persistencia y diseño de aplicaciones conectadas a MySQL.
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/JDBC-3b82f6?style=for-the-badge" alt="JDBC" />
+  <img src="https://img.shields.io/badge/JPA%20%2F%20Hibernate-59666C?style=for-the-badge" alt="JPA Hibernate" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Estado-Organizado-success?style=for-the-badge" alt="Estado" />
+</p>
 
-He seleccionado únicamente los proyectos que mejor representan mi evolución en el módulo, priorizando calidad, estructura y documentación.
+---
 
-## Proyectos incluidos
+## 📖 Sobre este repositorio
 
-### 1. Agenda de Amigos
-Aplicación de escritorio desarrollada en Java con interfaz gráfica en Swing y conexión a MySQL.
+Aquí recopilo una selección de mis proyectos más representativos del módulo de **Acceso a Datos**, centrados en:
+
+- acceso a bases de datos con Java
+- persistencia con JDBC y JPA / Hibernate
+- diseño de modelos relacionales
+- aplicaciones de escritorio conectadas a MySQL
+- documentación técnica y diagramas de apoyo
+
+He seleccionado únicamente los trabajos que mejor representan mi evolución en el módulo, priorizando estructura, funcionalidad y documentación.
+
+---
+
+## 🚀 Proyectos incluidos
+
+### 👥 Agenda de Amigos
+Aplicación de escritorio desarrollada en **Java**, con interfaz gráfica en **Swing** y persistencia en **MySQL**.
 
 **Incluye:**
-- Alta, listado, búsqueda y modificación de amigos
-- Relación entre amigos y pandillas
-- Persistencia con JDBC
-- Script SQL, diagramas y documentación
+- alta, listado, búsqueda y modificación de amigos
+- relación entre amigos y pandillas
+- patrón DAO
+- script SQL, diagramas y documentación
 
-### 2. Gestión de Institutos
-Aplicación desarrollada en Java utilizando JPA/Hibernate y MySQL en Docker.
+📂 Carpeta: `agenda-amigos-java-mysql/`
+
+---
+
+### 🏫 Gestión de Institutos
+Aplicación desarrollada en **Java** utilizando **JPA / Hibernate** y **MySQL en Docker**.
 
 **Incluye:**
-- Gestión de centros, profesores, especialidades y asignaturas
-- Persistencia orientada a objetos con JPA/Hibernate
-- Consultas y operaciones sobre entidades relacionadas
-- Diagramas de base de datos y memoria del proyecto
+- gestión de centros, profesores, especialidades y asignaturas
+- persistencia orientada a objetos
+- consultas y operaciones sobre entidades relacionadas
+- diagramas de base de datos y memoria del proyecto
 
-## Tecnologías trabajadas
+📂 Carpeta: `gestion-institutos-jpa/`
+
+---
+
+## 🛠️ Tecnologías trabajadas
+
 - ☕ Java
 - 🗄️ MySQL
 - 🐳 Docker
 - 🧩 JDBC
 - 🔗 JPA / Hibernate
 - 🖥️ Swing
+- 🧠 Modelado relacional y UML
 
-## Estructura del repositorio
-- `agenda-amigos-java-mysql/`
-- `gestion-institutos-jpa/`
+---
 
-Cada proyecto incluye su propio código fuente, documentación y materiales de apoyo.
+## 📂 Estructura del repositorio
 
-## Objetivo
-Mostrar de forma ordenada y clara algunos de mis trabajos más relevantes de Acceso a Datos, reflejando tanto la parte técnica como el diseño y la documentación de cada proyecto.
-
-## Autor
-Ignacio Daniel Villacis Quishpe
+```text
+Acceso-a-Datos/
+├── agenda-amigos-java-mysql/
+└── gestion-institutos-jpa/
